@@ -24,6 +24,7 @@ public class Mavenproject2 {
             Files.move(origenPath, destinoPath, StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             System.err.println(e);
+             System.err.println("hola");
         }
    
     }
